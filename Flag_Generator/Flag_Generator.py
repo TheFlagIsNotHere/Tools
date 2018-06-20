@@ -24,7 +24,7 @@ def how_to():
 
 	print ("\n[*]Usage:")
 	print ("\t[*]python3 Flag_Generator.py: to display help.")
-	print ("\t[*]python3 Flag_Generator.py remplace: Change the/this value for the CTF name.")
+	print ("\t[*]python3 Flag_Generator.py replace: Change the/this value for the CTF name.")
 	print ("\t[*]python3 Flag_Generator.py 'flag': to have your final flag.\n")
 
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 	if len(sys.argv) == 1:
 		how_to()
-	elif sys.argv[1] == "remplace":
+	elif sys.argv[1] == "replace":
 		remplace()
 	elif len(sys.argv) == 2:
 		copy()
